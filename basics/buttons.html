@@ -8,6 +8,15 @@
     border-radius: 2px;
     cursor: pointer;
     margin-right: 8px;
+    transition: opacity 0.15s;
+  }
+
+  .sub:hover {
+    opacity: 0.8;
+  }
+
+  .sub:active {
+    opacity: 0.5;
   }
 
   .join {
@@ -20,6 +29,16 @@
     border-width: 1px;
     border-radius: 2px;
     cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+  }
+
+  .join:hover {
+    background-color: rgb(15, 104, 219);
+    color: white;
+  }
+
+  .join:active {
+    opacity: 0.7;
   }
 
   .tweet {
@@ -33,6 +52,11 @@
     border-radius: 20px;
     cursor: pointer;
     margin-left: 8px;
+    transition: box-shadow 0.15s;
+  }
+
+  .tweet:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
   }
 </style>
 
